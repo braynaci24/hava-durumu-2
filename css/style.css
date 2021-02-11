@@ -51,6 +51,11 @@ body {
 }
 .number {
   font-size: 50px;
+  text-shadow: 2px 2px rgb(175, 173, 173);
+}
+.month {
+  text-shadow: 1px 2px rgb(175, 173, 173);
+
 }
 .status {
   padding-top: 10px;
@@ -77,6 +82,8 @@ body {
 .history-number {
   font-size: 50px;
   color: #fff;
+  text-shadow: 2px 2px rgb(175, 173, 173);
+
 }
 .circle {
   position: absolute;
