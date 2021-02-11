@@ -32,11 +32,13 @@ body {
 .name {
   font-size: 22px;
   font-weight: 700;
+  text-shadow: 2px 2px rgb(175, 173, 173);
 }
 .name-2 {
   font-weight: 600;
   padding-top: 4px;
   font-size: 13px;
+
 }
 .information {
   display: flex;
@@ -54,6 +56,8 @@ body {
   padding-top: 10px;
   font-size: 13px;
   font-weight: 400;
+  text-shadow: 0px 1px rgb(175, 173, 173);
+
 }
 .city {
   font-weight: 700;
