@@ -14,6 +14,7 @@ body {
     background-image: url(../images/eifel.png);
     background-position: center;
     opacity: 0.8;
+    border-radius: 4px;
 }
 .weather-container {
   display: flex;
@@ -71,7 +72,7 @@ body {
 }
 .history-number {
   font-size: 50px;
-  color: rgb(163, 162, 162);
+  color: #fff;
 }
 .circle {
   position: absolute;
@@ -101,4 +102,41 @@ body {
 .background-img-3 {
   background-image: url(../images/russia.jpg);
   background-size: cover;
+}
+@media (max-width: 1280px) {
+  .weather-container {
+    flex-direction: column;
+    height: 1900px;
+  }
+  .weather-box {
+    width: 60%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .name-2 {
+    font-size: 30px;
+  }
+  .number {
+    font-size: 90px;
+  }
+  .status {
+    font-size: 30px;
+  }
+  .circle {
+    left: 100px;
+    font-size: 25px;
+  }
+  .icon {
+    font-size: 80px;
+  }
+  .history-number {
+    font-size: 70px;
+  }
+  .month {
+    font-size: 40px;
+  }
 }
