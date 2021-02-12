@@ -1,7 +1,7 @@
 body {
+  background-image: linear-gradient(to bottom right, rgb(0, 153, 255), rgb(248, 252, 191));
+  background-repeat: no-repeat;
   font-family: 'PT Serif', serif;
-}
-.general-container {
 }
 .weather-box {
     display: flex;
@@ -13,7 +13,6 @@ body {
     color: rgb(240, 233, 233);
     background-image: url(../images/eifel.png);
     background-position: center;
-    opacity: 0.8;
     border-radius: 4px;
 }
 .weather-container {
@@ -21,9 +20,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 789px;
-  background-image: url("../images/background.png");
-  background-size: cover;
-  
 }
 .city-name {
   display: flex;
@@ -32,13 +28,11 @@ body {
 .name {
   font-size: 22px;
   font-weight: 700;
-  text-shadow: 0px 8px black;
 }
 .name-2 {
   font-weight: 600;
   padding-top: 4px;
   font-size: 13px;
-
 }
 .information {
   display: flex;
@@ -51,18 +45,12 @@ body {
 }
 .number {
   font-size: 50px;
-  text-shadow: 7px 7px black;
-}
-.month {
-  text-shadow: 0px 5px black;
-
+  
 }
 .status {
   padding-top: 10px;
   font-size: 13px;
   font-weight: 400;
-  text-shadow: 0px 6px black;
-
 }
 .city {
   font-weight: 700;
@@ -82,8 +70,9 @@ body {
 .history-number {
   font-size: 50px;
   color: #fff;
-  text-shadow: 6px 6px black;
-
+}
+.name, .number, .name-2, .history-number, .month, .status {
+  text-shadow: 2px 2px 5px #000000;
 }
 .circle {
   position: absolute;
@@ -113,6 +102,162 @@ body {
 .background-img-3 {
   background-image: url(../images/russia.jpg);
   background-size: cover;
+}
+.weather-box-link {
+  text-decoration: none;
+}
+.weather-box-link:hover {
+box-shadow:         0px 0px 18px 0px rgba(190, 190, 190, 0.58);
+}
+.detail-container {
+  background: #fff;
+  width: 700px;
+  margin: 113px auto;
+}
+.top-weather {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+
+.top-weather-left-block {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  position: relative;
+}
+.top-weather-left-block span, i {
+  font-size: 25px;
+}
+.circle-2 {
+  position: absolute;
+  top: 23px;
+  right: 100px;
+  font-size: 11px;
+}
+.percent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  font-size: 22px;
+}
+.percent i {
+  color: rgb(59, 59, 253);
+  font-size: 22px;
+  padding-right: 50px;
+}
+.top-weather-right-block {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 80px;
+}
+.wind {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  font-size: 22px;
+}
+.wind i {
+  color: rgb(59, 59, 253);
+  font-size: 22px;
+}
+.bottom-weather {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-top-weather {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff(231, 230, 230);
+  border-bottom: 1px solid gray;
+}
+.bottom-top-weather:last-child {
+  border-bottom: 0px;
+}
+.bottom-top-weather-left-block {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.moisture {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+}
+.color {
+  color: rgb(59, 59, 253);
+}
+.sun-color {
+  color: rgb(182, 182, 9);
+}
+.moisture i {
+  font-size: 22px;
+}
+.percent-2 {
+  display: flex;
+    justify-content: flex-end;
+    padding-right: 13px;
+}
+.general-container-2 {
+  display: flex;
+  justify-content: center;
+}
+.list-one-element {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.list-one-element:first-child {
+  border-top: 1px solid gray;
+}
+.history-2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 120px;
+}
+.history-last-span {
+  padding-left: 10px;
+}
+.wind-2 {
+  width: 300px;
+}
+.degree-2 {
+  padding-right: 29px;
+  padding-left: 10px;
+}
+.circle-3 {
+  position: absolute;
+  font-size: 5px;
+  top: 0px;
+  right: 0px;
+}
+.circle-4 {
+  position: absolute;
+  top: 0px;
+  right: 24px;
+  font-size: 5px;
+}
+.status-2 {
+  width: 160px;
+}
+.status-2 i {
+  padding-right:5px;
+}
+.bold {
+  font-weight: 700;
 }
 @media (max-width: 1280px) {
   .weather-container {
