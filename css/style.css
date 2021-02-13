@@ -14,10 +14,6 @@ body {
     background-image: url(../images/eifel.png);
     background-position: center;
     border-radius: 4px;
-    transition: all;
-}
-.weather-box:hover {
-  padding: 25px 25px 25px 25px;
 }
 .weather-container {
   display: flex;
