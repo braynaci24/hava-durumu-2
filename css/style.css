@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 789px;
+  height: 647px;
 }
 .city-name {
   display: flex;
@@ -76,7 +76,7 @@ body {
 }
 .circle {
   position: absolute;
-  left: 55px;
+  right: -5px;
   font-size: 12px;
 }
 .weather-box-2 {
@@ -112,13 +112,14 @@ box-shadow:         0px 0px 60px 0px rgba(20, 20, 20, 0.58);
 .detail-container {
   background: #fff;
   width: 700px;
-  margin: 113px auto;
+  margin: 23px auto;
+  margin-bottom: 205px;
+  border-radius: 5px;
 }
 .top-weather {
   display: flex;
   justify-content: space-around;
   height: 80px;
-  border-top: 1px solid gray;
 }
 
 .top-weather-left-block {
@@ -189,14 +190,20 @@ box-shadow:         0px 0px 60px 0px rgba(20, 20, 20, 0.58);
 }
 .city-name-2 {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 26px;
 }
-.city-name-2 span {
-  border-bottom: 1px solid #099dfd;
-  color: #099dfd;
-  font-size: 23px;
+.explanation{
+  font-size: 13px;
+  font-weight: 400;
+  color: #f0f9c1;
+}
+.explanation-city {
+  color: #f0f9c1;
+  font-size: 40px;
+  font-weight: 900;
 }
 .moisture {
   display: flex;
@@ -269,7 +276,21 @@ box-shadow:         0px 0px 60px 0px rgba(20, 20, 20, 0.58);
 .bold {
   font-weight: 700;
 }
-@media (max-width: 1280px) {
+.no-border {
+  border-bottom: 0px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  width: 280px;
+  height: 30px;
+  margin: 53px auto;
+  border: 2px solid #fff;
+}
+input:focus {
+  outline: none;
+}
+@media (max-width: 1000px) {
   .weather-container {
     flex-direction: column;
     height: 2800px;
@@ -291,7 +312,7 @@ box-shadow:         0px 0px 60px 0px rgba(20, 20, 20, 0.58);
     font-size: 30px;
   }
   .circle {
-    left: 100px;
+    right: -5px;
     font-size: 25px;
   }
   .icon {
