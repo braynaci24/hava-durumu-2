@@ -1,6 +1,6 @@
 # Hava Durumu 🌨
 
-hava-durumu-2.netlify.app
+https://hava-durumu-2.netlify.app
 
 Görmek istediğimiz şehrin OpenWeatherMap'den gelen hava durumu bilgileri ile günlük hava durumuna ulaşabiliyoruz.
 
