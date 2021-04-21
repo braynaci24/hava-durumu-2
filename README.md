@@ -6,3 +6,4 @@ Görmek istediğimiz şehrin OpenWeatherMap'den gelen hava durumu bilgileri ile 
 
 * OpenWeatherMap API
 * JQuery 
+* AJAX
